@@ -1,0 +1,35 @@
+# =============================================================
+# AI Workflow Optimization Engine — requirements.txt
+# =============================================================
+# Install: pip install -r requirements.txt
+# Then:    python -m spacy download en_core_web_sm
+# =============================================================
+
+# ── NLP & process mining ──────────────────────────────────────
+spacy>=3.7.0
+pm4py>=2.7.0
+
+# ── Machine learning (local BART inference) ───────────────────
+transformers>=4.40.0
+torch>=2.2.0
+
+# ── Data processing ───────────────────────────────────────────
+pandas>=2.1.0
+numpy>=1.26.0
+
+# ── Graph processing ──────────────────────────────────────────
+networkx>=3.2.0
+pyvis>=0.3.2
+
+# ── Dashboard ─────────────────────────────────────────────────
+streamlit>=1.32.0
+plotly>=5.20.0
+
+# ── API & environment ─────────────────────────────────────────
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# ── Utilities (stdlib — listed for reference only) ───────────
+# sqlite3    — built into Python, no install needed
+# xml        — built into Python, no install needed
+# pathlib    — built into Python, no install needed

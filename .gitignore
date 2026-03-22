@@ -1,0 +1,83 @@
+# =============================================================
+# AI Workflow Optimization Engine — .gitignore
+# =============================================================
+
+# ── Data files (large, sensitive, or generated) ──────────────
+data/
+zips/
+
+# ── Python virtual environment ────────────────────────────────
+venv/
+.venv/
+env/
+libs/
+lib/
+lib/
+
+# ── Environment variables (secrets) ──────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python cache ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Build / packaging ─────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# ── Testing & coverage ────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ── HuggingFace model cache (1.6GB — never commit) ───────────
+.cache/
+~/.cache/huggingface/
+
+# ── Jupyter notebooks (checkpoints only) ─────────────────────
+.ipynb_checkpoints/
+
+# ── IDE / editor files ────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Streamlit ─────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ── Temporary files ───────────────────────────────────────────
+*.tmp
+*.temp
+tmp/
+temp/
