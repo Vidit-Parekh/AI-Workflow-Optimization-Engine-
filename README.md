@@ -469,11 +469,6 @@ git push origin main
 
 ---
 
-## 📄 Resume Bullet
-
-> Built a consulting-grade **AI Workflow Optimization Engine** inspired by HBS GenAI case study — classifies business process tasks as automatable/augmentable/non-AI using a hybrid keyword + BART-large-mnli pipeline, estimates annual ROI via cost-time modelling ($8.7M on BPI 2019 dataset), and visualises results in a Streamlit dashboard with workflow graph, opportunity heatmap, and what-if simulation. Zero API cost — runs entirely on open-source tools.
-
----
 
 ## 📝 License
 
