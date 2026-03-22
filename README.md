@@ -25,7 +25,7 @@ Companies are randomly adopting AI tools without seeing consistent returns. This
 
 ## 🏗️ System Architecture
 
-![System Architecture](Documentation_images/ai_workflow_project_architecture.svg)
+![System Architecture](Documentation_images /ai_workflow_project_architecture.svg)
 
 The engine is a 4-layer pipeline:
 
