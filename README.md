@@ -25,7 +25,7 @@ Companies are randomly adopting AI tools without seeing consistent returns. This
 
 ## 🏗️ System Architecture
 
-![System Architecture](Documentation_images/ai_workflow_project_architecture.svg)
+![System Architecture](Documentation_images/ai_workflow_project_architecture.png)
 
 The engine is a 4-layer pipeline:
 
@@ -40,7 +40,7 @@ The engine is a 4-layer pipeline:
 
 ## 🤖 Hybrid Classifier Design
 
-![Classifier Design](Documentation_images/accuracy_diagnosis.svg)
+![Classifier Design](Documentation_images/accuracy_diagnosis.png)
 
 Two-stage pipeline — keyword rules handle ~90% of tasks, BART NLI handles ambiguous edge cases:
 
@@ -58,7 +58,7 @@ Two-stage pipeline — keyword rules handle ~90% of tasks, BART NLI handles ambi
 
 ## 💰 ROI Engine
 
-![ROI Engine](Documentation_images/roi_engine_diagram.svg)
+![ROI Engine](Documentation_images/roi_engine_diagram.png)
 
 | Metric | Formula |
 |---|---|
@@ -177,7 +177,7 @@ ai-workflow-optimizer/
 
 ## 🧪 Five Industry Test Cases
 
-![Test Cases Overview](Documentation_images/test_cases_overview.svg)
+![Test Cases Overview](Documentation_images/test_cases_overview.png)
 
 ### How to run a test case
 
